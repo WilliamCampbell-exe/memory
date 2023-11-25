@@ -2,13 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-
+body {
+  background-color: lightcoral;
+  scroll-behavior: auto;
+}
 
 @layer components {
   .sidebar-icon {
     @apply relative flex items-center justify-center 
     h-10 w-10 mx-auto mt-4 mb-4
-    bg-orange-100 hover:bg-inherit
+    bg-red-200 hover:bg-inherit
     hover:rounded-xl rounded-3xl
     transition-all duration-200 ease-linear
     cursor-pointer shadow-lg;

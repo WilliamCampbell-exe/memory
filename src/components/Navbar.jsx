@@ -6,7 +6,7 @@ import '../index.css'
 
 const Navbar = () => {
     return (
-      <div className="fixed top-0 left-0 h-screen w-16 flex flex-col justify-center">
+      <div className="fixed right-0 h-screen w-20 flex flex-col justify-end">
         <SideBarIcon to="Home" icon={<SiCodefactor  size="18" text="Home" />} />
         <SideBarIcon to="Search" icon={<SlMagnifier size="18" text="Search" />} />
         <SideBarIcon className="Help" to="Help" icon={<SlNote stion size="18" text="Help" />} />
